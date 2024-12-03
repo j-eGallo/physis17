@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/aristotelica-display-trial');
+@import url('https://fonts.cdnfonts.com/css/geo-sans-light');
+@font-face {
+    font-family: 'Autography'; /* Nom que vous utilisez */
+    src: url('../fonts/autography.otf') format('opentype'); /* Format opentype pour .otf */
+    font-weight: normal;
+    font-style: normal;
+}
+
 ::selection {
     background: #6db329;
 }
@@ -143,6 +152,43 @@ header .header-right .hamburger div {
     text-align: center;
 }
 
+.titleL {
+    font-style: italic !important; 
+    font-family: 'Autography', sans-serif !important; 
+    font-size: 51px !important; 
+    text-align: left !important; 
+    margin-left: 185px !important;
+}
+
+.titleR {
+    font-style: italic !important;  
+    font-family: 'Autography', sans-serif !important; 
+    font-size: 51px !important; 
+    text-align: right !important; 
+    margin-top: 0 !important; 
+    margin-right: 182px !important;
+}
+
+.titleM {
+    display: none !important;
+}
+
+
+#stext h1 {
+    font-weight: bolder;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    font-family: 'Aristotelica Display Trial', sans-serif;
+}
+
+#stext li {
+    list-style: none;
+    font-family: 'GeosansLight', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+}
+
 #ncontatto {
     background-color: #6db329;
     border: none;
@@ -273,22 +319,23 @@ header .header-right .hamburger div {
 }
 
 .cstext h1 {
-    margin-top: 10%;
+    margin-top: 5% !important;
     margin-bottom: 0%;
+    padding-top: 0;
 }
 
 .cstext img {
     height: auto;
     width: 820px;
     margin-top: 7%;
-    margin-bottom: 9%;
+    margin-bottom: 2%;
 }
 .cstext p {
     font-family: "Poppins";
     font-size: 17px;
     color: black;
-    text-align: center;
-    margin-top: 4%;
+    text-align: left;
+    margin-top:1%;
 }
 
 
@@ -368,6 +415,11 @@ header .header-right .hamburger div {
     padding-right: 9%;
     text-align-last: center;
 }
+
+#chisono p:nth-child(2) {
+    margin-top: 80px !important;
+}
+
 
 .sectitle h1 {
     font-size: 33px;
@@ -819,6 +871,33 @@ footer {
         background-color: #FFFAEF;
         display: block;
     }
+
+    .titleL {
+        font-style: italic !important; 
+        font-family: 'Autography', sans-serif !important; 
+        font-size: 31px !important; 
+        text-align: left !important; 
+        margin-left: 0 !important;
+    }
+    
+    .titleR {
+        font-style: italic !important;  
+        font-family: 'Autography', sans-serif !important; 
+        font-size: 31px !important; 
+        text-align: right !important; 
+        margin-top: 0 !important; 
+        margin-right: 0 !important;
+    }
+
+    .titleM {
+        display: block !important;
+        font-family: 'Autography', sans-serif !important; 
+        font-size: 26px !important;
+        text-align: center !important;
+        margin-bottom: 40px !important;
+    }
+
+
     .sectitle {
         padding-bottom: 6% !important;
     }
