@@ -3,11 +3,14 @@
 @import url('https://fonts.cdnfonts.com/css/aristotelica-display-trial');
 @import url('https://fonts.cdnfonts.com/css/geo-sans-light');
 @font-face {
-    font-family: 'Autography'; /* Nom que vous utilisez */
-    src: url('../fonts/autography.otf') format('opentype'); /* Format opentype pour .otf */
+    font-family: 'Autography'; /* Nom de la police */
+    src: url('../fonts/autography.woff2') format('woff2'), /* Format moderne et optimisé */
+         url('../fonts/autography.woff') format('woff'),   /* Format pour les anciens navigateurs */
+         url('../fonts/autography.otf') format('opentype'); /* Format opentype pour compatibilité */
     font-weight: normal;
     font-style: normal;
 }
+
 
 ::selection {
     background: #6db329;
