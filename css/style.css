@@ -873,6 +873,7 @@ footer {
     }
 
     .titleL {
+        display: none !important;
         font-style: italic !important; 
         font-family: 'Autography', sans-serif !important; 
         font-size: 31px !important; 
@@ -881,6 +882,7 @@ footer {
     }
     
     .titleR {
+        display: none !important;
         font-style: italic !important;  
         font-family: 'Autography', sans-serif !important; 
         font-size: 31px !important; 
